@@ -13,14 +13,13 @@ public class First_Task_Java {
      *и результат выводит в консоль.
      */
     public static void main(String[] args) {
-        int a, b;
         try {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Необходимо ввести 2 целых числа");
             System.out.print("Введите первое число a:");
-            a = scanner.nextInt();
+            int a = scanner.nextInt();
             System.out.print("Введите второе число b:");
-            b = scanner.nextInt();
+            int b = scanner.nextInt();
             if (a > b) {
                 System.out.println("a > b");
             } else if (a < b) {
